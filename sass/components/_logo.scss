@@ -1,0 +1,48 @@
+/* LOGO */
+.logo {
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+  }
+  
+  .logo__inter {
+    color: $accent-color;
+  }
+  
+  .logo__name {
+    color: #000000;
+  }
+  
+  .logo__studia {
+    color: $primary-bg-color;
+  }
+  
+  .footer__logo {
+    margin-bottom: 20px;
+  }
+  
+  
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .section__title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    width: 1170px;
+    color: $title-tex-color;
+    @include FontW(700,36px);
+    line-height: 1.2;
+    text-align: center;
+  }
+  
+  .section__images {
+    padding-top: 0px;
+  }
+  
+  .section__workers {
+    background-color: #f5f4fa;
+  }
+  

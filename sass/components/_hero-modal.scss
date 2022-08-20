@@ -22,8 +22,7 @@
   max-width: 696px;
   margin: 0 auto;
   color: $primary-bg-color;
-  font-weight: 900;
-  font-size: 44px;
+  @include FontW(900,44px);
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -38,8 +37,7 @@
   height: 50px;
   width: 200px;
   color: $primary-bg-color;
-  font-weight: 700;
-  font-size: 16px;
+  @include FontW(700,16px);
   background-color: $accent-color;
   border-color: $accent-color;
   border-radius: 4px;
@@ -112,8 +110,7 @@
 .form__title {
   margin-bottom: 8px;
   font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
+  @include FontW(700,20px);
   line-height: 23px;
   text-align: center;
   letter-spacing: 0.03em;
@@ -130,8 +127,7 @@
   margin-bottom: 4px;
   margin-top: 10px;
   font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
+  @include FontW(400,12px);
   line-height: 1.2;
   letter-spacing: 0.01em;
   color: $primary-tex-color;
@@ -186,8 +182,7 @@
   display: flex;
   justify-content: center;
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
+  @include FontW(400,14px);
   line-height: 171%;
   letter-spacing: 0.03em;
   text-align: center;
@@ -226,8 +221,7 @@
   display: inline-flex;
   align-items: center;
   color: $primary-tex-color;
-  font-weight: 400;
-  font-size: 14px;
+  @include FontW(400,14px);
   line-height: 24px;
   letter-spacing: 0.03em;
 }
@@ -235,8 +229,7 @@
 .checkbox__link {
   font-style: normal;
   margin-left: 5px;
-  font-weight: 400;
-  font-size: 14px;
+  @include FontW(400,14px);
   line-height: 171%;
   letter-spacing: 0.03em;
   color: $accent-color;
@@ -249,8 +242,7 @@
   height: 50px;
   width: 200px;
   color: $primary-bg-color;
-  font-weight: 700;
-  font-size: 16px;
+  @include FontW(700,16px);
   background-color: $accent-color;
   border-color: $accent-color;
   border-radius: 4px;

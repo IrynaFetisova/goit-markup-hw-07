@@ -1,5 +1,7 @@
-
+@import "./utils/variable";
+@import "./components/base";
 @import "./components/page-header";
+@import "./components/logo";
 @import "./components/hero-modal";
 @import "./components/benefits-section";
 @import "./components/function-section";
@@ -7,4 +9,4 @@
 @import "./components/partners-section";
 @import "./components/footer";
 @import "./components/portfolio";
-@import "./utils/variable";
+
