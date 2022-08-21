@@ -52,8 +52,7 @@
 .join__title {
   width: 116px;
   height: 16px;
-  font-weight: 700;
-  font-size: 14px;
+  @include FontW(700,14px);
   text-transform: uppercase;
   color: $primary-bg-color;
   margin-bottom: 20px;

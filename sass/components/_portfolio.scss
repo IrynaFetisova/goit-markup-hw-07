@@ -10,8 +10,7 @@
 
 .btm__element {
   padding: 6px 22px;
-  font-weight: 500;
-  font-size: 16px;
+  @include FontW(500,16px);
   line-height: 1.625;
   letter-spacing: 0.03em;
   border: 1px solid transparent;
@@ -63,8 +62,7 @@
 
 .work-list__title {
   color: $title-tex-color;
-  font-weight: 700;
-  font-size: 18px;
+  @include FontW(700,18px);
   margin-bottom: 4px;
   line-height: 2;
   letter-spacing: 0.06em;
